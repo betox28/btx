@@ -1,1 +1,117 @@
-# btx
+<!DOCTYPE html>
+<html lang="pt">
+<style>
+
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 10;
+    background-color: grey ;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black ;
+    display: block ;
+    transition: 0.2s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color:black;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px){
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)"
+  class="closebtn"
+  onclick="closeNav()">&times;</a>
+
+  <a href="https://b4djfsjtcpwllgrdsyti1g.on.drv.tw/meus projectos/sobre mim 2 1.html">sobre mim</a>
+  <a href="https://smartanimes.com/">baixar animes </a>
+  
+  <a href="https://wa.me/258853027072?text=Minha dúvida é:">Duvidas</a>
+  <a  href="https://www.instagram.com/albertoinaciog?igsh=MXBoNzZnZnZvdGV3NQ">contacto</a></div>
+
+<div id="main">
+  
+  <span style="font-size:30px;cursor:
+  pointer"
+
+  onclick="openNav()">&#9776; 
+  </span>
+
+</div>
+
+
+<script>
+function openNav() {
+ document.getElementById("mySidenav")
+ .style.width="250px";
+
+ document.getElementById("main")
+ .style.marginLeft="250px";
+
+ document.body.style.backgroundColor=
+ "rgba(0,0,0,0.4)";
+
+}
+
+function closeNav() {
+ document.getElementById("mySidenav")
+ .style.width = "0";
+
+ document.getElementById("main")
+ .style.marginLeft= "0";
+
+ document.body.style.backgroundColor =
+ "white ";
+
+}
+</script>
+
+    <head><h1><strong>BTXanimes </strong> </h1>
+    <p><i>"desfrute dos melhores animes aqui"</i></p>
+    
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>BTXanimes </title>
+   <link rel='stylesheet' href='style.css'/></head>
+    <body background ="img/11.jpg" >
+        
+        
+       
+        
+        </body>
+</html>
